@@ -58,8 +58,6 @@ streamlit run app.py
 
 ---
 
-## Screenshots
-
 # Screenshots
 
 ## Home Dashboard
