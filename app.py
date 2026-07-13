@@ -70,6 +70,15 @@ div[data-testid="stVerticalBlockBorderWrapper"] {
     width:100%; min-height:3rem; border:0; border-radius:12px; font-weight:800;
     background:linear-gradient(90deg,#4f46e5,#0891b2); color:white;
 }
+.stDownloadButton>button {
+    width: 100%;
+    min-height: 3rem;
+    border: 0;
+    border-radius: 12px;
+    font-weight: 800;
+    background: linear-gradient(90deg,#4f46e5,#0891b2);
+    color: white !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -210,7 +219,7 @@ if cohere_api_key:
             placeholder="Paste the customer support email here...",
             label_visibility="collapsed"
         )
-        process_email = st.button("⚡ Analyze & Draft Response", use_container_width=True)
+        process_email = st.button(" Analyze & Draft Response", use_container_width=True)
 
     if process_email:
         if customer_email.strip():
