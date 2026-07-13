@@ -55,11 +55,9 @@ st.markdown('<div class="subtitle">Analyze the issue, detect sentiment, choose t
 with st.sidebar:
     st.markdown("##  Support Triage AI")
     st.caption("AI-powered customer support workflow")
-    cohere_api_key = st.text_input(
-        "Cohere API key",
-        type="password",
-        placeholder="Enter your API key"
-    )
+    
+    cohere_api_key = st.secrets["COHERE_API_KEY"]
+    
     st.divider()
     st.markdown("**Workflow**")
     st.caption("① Extract issue & sentiment")
