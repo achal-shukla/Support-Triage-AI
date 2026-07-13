@@ -19,6 +19,35 @@ st.markdown("""
                 radial-gradient(circle at 85% 15%, rgba(6,182,212,.12), transparent 25%),
                 #0b1020;
 }
+/* Keep dashboard text readable even in Streamlit light mode */
+.stApp h1,
+.stApp h2,
+.stApp h3,
+.stApp p,
+.stApp label,
+.stApp [data-testid="stMarkdownContainer"] {
+    color: #f8fafc;
+}
+
+[data-testid="stSidebar"] {
+    background:#111827;
+    border-right:1px solid rgba(255,255,255,.08);
+    color:#f8fafc;
+}
+
+[data-testid="stSidebar"] * {
+    color:#f8fafc;
+}
+
+.stTextArea textarea {
+    background:rgba(2,6,23,.7);
+    border-radius:14px;
+    color:#f8fafc;
+}
+
+.stTextArea textarea::placeholder {
+    color:#94a3b8;
+}
 .block-container {max-width: 1150px; padding-top: 5rem;}
 [data-testid="stSidebar"] {background:#111827; border-right:1px solid rgba(255,255,255,.08);}
 .hero {
