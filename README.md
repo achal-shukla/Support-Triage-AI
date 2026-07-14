@@ -1,10 +1,10 @@
 # Support Triage AI
 
-**Live Demo:** https://your-streamlit-app.streamlit.app
+**Live Demo:** https://support-triage-ai-354d25n7wksgi3rzderuhf.streamlit.app
 
-   No installation required  
-   No API key required  
-   Try the app directly in your browser
+✅ No installation required  
+✅ No API key required  
+✅ Try the app directly in your browser
 
 An AI-powered customer support workflow built using **LangChain**, **Cohere**, and **Streamlit**.
 
