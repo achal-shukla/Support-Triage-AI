@@ -1,5 +1,11 @@
 # Support Triage AI
 
+**Live Demo:** https://your-streamlit-app.streamlit.app
+
+   No installation required  
+   No API key required  
+   Try the app directly in your browser
+
 An AI-powered customer support workflow built using **LangChain**, **Cohere**, and **Streamlit**.
 
 This application analyzes customer emails, identifies the issue and sentiment, recommends an appropriate response tone, and generates a professional reply using a Sequential Chain workflow.
